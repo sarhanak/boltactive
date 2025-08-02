@@ -4,6 +4,7 @@
 +import LoadingSpinner from './LoadingSpinner';
 
  const AdminDashboard = () => {
+ }
 @@ .. @@
    if (loading) {
      return (
