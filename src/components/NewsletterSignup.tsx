@@ -1,12 +1,1 @@
-@@ .. @@
- import { Mail, CheckCircle, AlertCircle } from 'lucide-react';
- import { useContact } from '../hooks/useContact';
-+import LoadingSpinner from './LoadingSpinner';
-
- const NewsletterSignup = () => {
-@@ .. @@
-        >
-           {loading ? (
--            <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-+            <LoadingSpinner size="sm" color="border-white" />
-           ) : (
+{"code":"rate-limited","message":"You have hit the rate limit. Please upgrade to keep chatting.","providerLimitHit":false,"isRetryable":true}
